@@ -14,7 +14,7 @@ function App() {
    setTaskArray((prevValue) => {
     return [...prevValue, task] ;
    });
-   setTaskArray("");
+   setTask("");
   }
 
 
