@@ -1,2 +1,2 @@
 # To-Do-list
-Created with CodeSandbox
+A to do list created using React and CodeSandbox. 
