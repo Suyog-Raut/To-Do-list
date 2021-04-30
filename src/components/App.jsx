@@ -32,8 +32,8 @@ function App() {
 
       <div>
         <ul>
-          {taskArray.map((taskItem) => (
-            <Taskcomp text={taskItem} />
+          {taskArray.map((taskItem, index) => (
+            <Taskcomp key={index} text={taskItem} />
           ))}
         </ul>
       </div>
